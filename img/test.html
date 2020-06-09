@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<style type="text/css">
+
+	*{
+		/* border: 1px solid #999; */
+	}
+	.content{
+		width: 500px;
+		height: 500px;
+		overflow: hidden;
+		position: relative;
+		/* border: 1px solid #555; */
+	}
+	.content video{
+		position: absolute;
+		top: 0;
+		left: -260px;
+	}
+</style>
+
+
+<body>
+
+<!-- 只要在你的影片語法加上 muted=”true” 靜音就能夠自動播放影片，再保險一點就是再加上 preload=”auto” ，自動預先載入。 -->
+
+	<div class="content">
+		<video src="2018vider.mp4" width="1000px" height="500px" loop="true" autoplay="autoplay" muted="true"></video>
+	</div>
+
+
+
+</body>
+</html>
